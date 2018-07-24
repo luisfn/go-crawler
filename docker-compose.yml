@@ -1,0 +1,8 @@
+version: "3"
+services:
+  application:
+    container_name: crawler
+    build: .
+    volumes:
+      - ./:/go/src/github.com/luisfn/crawler/
+
