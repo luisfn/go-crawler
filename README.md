@@ -1,4 +1,4 @@
-#Go Crawler
+# Go Crawler
 
 Basic price crawler written in Go as a learning experiment
 
@@ -22,6 +22,12 @@ dep ensure
 
 ## Execution
 
+#### Locally
 ``` 
 go run crawler.go
+```
+
+#### Docker
+``` 
+docker-compose up
 ```
